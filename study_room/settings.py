@@ -68,7 +68,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'study_room.wsgi.app'
+WSGI_APPLICATION = 'study_room.wsgi.application'
+
+
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
